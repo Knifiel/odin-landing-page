@@ -1,6 +1,115 @@
 body{
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
     justify-content: space-between;
+    margin: 1em 5em 0;
+}
+
+
+.header{
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-between;
+
+     font-weight: bold;
+}
+
+
+.header .header-links ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1em;
+}
+
+.header .header-links a {
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.sign-up-box-1{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.sign-up-box-1-1{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sign-up-box-1-1 h1{
+    font-weight: bolder;
+    font-size: 40px;
+    max-width: 300px;
+}
+
+.sign-up-box-1-1 p{
+    font-weight: 100;
+}
+
+.sign-up-box-1 button{
+    flex: 0;
+    width:fit-content;
+    padding: 0 1em;
+}
+
+
+/* .sign-up-box-1 img{
+}
+*/
+
+
+.card-box{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;    
+}
+
+.cards{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.cards img{
+    border: 5px solid black;
+    border-radius: 2em;
+}
+
+
+.quote-box{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.quote-box .quote {
+    font-style: italic;
+}
+
+.quote-box .sign{
+    text-align: end;
+    font-weight: bold;
+}
+
+.sign-up-box-2{
+    display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.sign-up-box-2 h1{
+    font-weight: bolder;
+}
+
+.sign-up-box-2 p{
+    font-weight: normal;
+}
+
+.sign-up-box-2 button{
+    padding: 0 1em;
+}
+
+.footer{
+    text-align: center;
+    padding: 2em;
 }
