@@ -12,22 +12,27 @@ body{
 .header{
      display: flex;
      flex-flow: row nowrap;
-     justify-content: space-between;
-     align-items: center;
      
+     justify-content: center;
+     align-items: center;
+     gap: 14em;
+     padding: 1em;
+     margin: 0;
+
      background-color: #1F2937;
      color: #F9FAF8;
      font-size: 24px;
-     padding: 1em 2em;
-     margin: 0;
+     
     }
 
 .header .header-links ul{
     display: flex;
-    list-style: none;
+    
     margin: 0;
     padding: 0;
     gap: 1em;
+    
+    list-style: none;
 }
 
 .header .header-links a, .hero-1 p, .footer {
@@ -39,7 +44,9 @@ body{
 .hero{
     display: flex;
     flex-flow: row nowrap;
+    
     justify-content: center;
+    
     background-color: #1F2937;
     padding: 2em 0;
 }
@@ -47,9 +54,10 @@ body{
 .hero-1{
     display: flex;
     flex-flow: column nowrap;
+    
     flex: 1 0;
-    min-width: 400px;
-    max-width: min-content;
+    
+    max-width: 400px;
 
 }
 .hero img{
@@ -89,16 +97,18 @@ body{
 .cards{
     display: flex;
     flex-flow: row nowrap;
-    gap: 2em;
+    
     max-width: min-content;
+    
+    gap: 2em;
 }
 .cards p{
     color: #1F2937;
 }
 
 .cards img{
-    border: 5px solid black;
-    border-radius: 2em;
+    border: 5px solid #3882F6;
+    border-radius: 1em;
 }
 
 
@@ -112,16 +122,19 @@ body{
 }
 
 .quote-section .quote {
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
     max-width: 800px;
     margin: 20px 15% 0;
+    
+    font-size: 36px;
+    font-style: italic;
+    
+    color: #1F2937;
 }
 
 .quote-section .sign{
+    padding-left: 35%;
+    
     font-weight: bold;
-    padding-left: 50%;
 }
 
 .call-to-action{
@@ -129,19 +142,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3882F6;
+    
     max-width: max-content;
     border-radius: 12px;
+    
     padding: 1em;
     gap: 1em;
     margin: 20px;
+    
+    background-color: #3882F6;
 }
 
 .call-to-action h1, .call-to-action p{
+    margin: 0;
+    
     font-weight: bolder;
     font-size: 18px;
+    
     color: #E5E7EB;
-    margin: 0;
 }
 
 .call-to-action p{
@@ -150,14 +168,18 @@ body{
 
 .call-to-action button{
     padding: 0 1em;
-    background-color: #3882F6;
+    
     border: 2px solid white;
     border-radius: 4px;
+    
+    background-color: #3882F6;
     color: white;
 }
 
 .footer{
-    text-align: center;
     padding: 2em;
+    
+    text-align: center;
+    
     background-color: #1F2937;
 }
